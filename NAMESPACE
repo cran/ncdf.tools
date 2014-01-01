@@ -1,0 +1,20 @@
+exportPattern("^[^\\.]")
+
+#import(aNamespace)	# only required when extending S3 methods 
+
+#useDynLib(ProjectsDllBaseName)	# only required when supplying C or FORTRAN code 
+
+import(RNetCDF)
+importFrom(chron, chron, as.chron, years)
+importFrom(abind, abind)
+import(foreach)
+import(doMC)
+importFrom(raster, raster)
+importFrom(JBTools, checkInstalled, convertArgs2String, getVecInfo, 
+           getSysinfo, indexDimVecs2Matrix, isSeriesContinuous, isSeriesConstant,
+           labelMargins, MEF, plotImageRotated, plotBG, plotNLines, printStatus,
+           rangeZeroEqui, registerParallel, RMSE, userCoords, whichClosest)
+importFrom(RColorBrewer, brewer.pal)
+import(parallel)
+importFrom(chron, seq.dates)
+importFrom(plotrix, color.legend)
