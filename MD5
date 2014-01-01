@@ -1,5 +1,5 @@
-9c71451993c36759a680be40e45736da *DESCRIPTION
-c2d4120c25a17b7fe6dc9ce9842d9bf7 *NAMESPACE
+b0f1f8206ceee9e10c51aac2ecc0b1f3 *DESCRIPTION
+4000d6c51cfc34ee4b733d16b3f3eb70 *NAMESPACE
 31ed0170885d36f1a27c0b96950cbf31 *R/aggregateNcdf.R
 39f6dc588368cd5a21253e09834377d6 *R/checkNcdfFile.R
 e4ab87c707034a8405905cfcfd726bce *R/classR2Ncdf.R
@@ -22,7 +22,7 @@ c4606338a5ff09c39c13fcf960bb9e31 *R/modifyNcdfCopyMetadata.R
 9f7b455fa53fbbdbdec157f5211691b6 *R/modifyNcdfDefAtts.R
 89bcac81aac7db43fef762d742589407 *R/modifyNcdfSetMissing.R
 4848b64bc3d40e6d18927a58877860af *R/modifyNcdfStdNames.R
-e2cf403708fb0b7d24607cf00276bf19 *R/plotDatacube.R
+9db96a2232f0e694a89b469e052ca2a4 *R/plotDatacube.R
 77240dbe19b7644333a7168128d7577f *R/readFLUXNETNcdf.R
 78dfd25bb340093f34a790b620c9e176 *R/readNcdf.R
 715b4ecf9418cd49984dd55ff973385b *R/readNcdfCoordinates.R
@@ -54,7 +54,7 @@ efab8e85916585ce6651387153b11360 *man/modifyNcdfAddDim.Rd
 c5b8830cc2686a05c587181385082c92 *man/modifyNcdfDefAtts.Rd
 f00b4367a1787fb3cd4999c18cffba84 *man/modifyNcdfSetMissing.Rd
 c570fe6867d658763dca0c3ef4b9dfb1 *man/modifyNcdfStdNames.Rd
-80b2a7cd1a46a4d30ffa990f5fd376c2 *man/ncdf.tools-package.Rd
+bc06e7a992639cf22c80469b082c96bc *man/ncdf.tools-package.Rd
 f0b4b5e2c1e5771800898ba280018a41 *man/plotDatacube.Rd
 0c4407ac7999fc7d2f7217a34e8b4fb4 *man/readFLUXNETNcdf.Rd
 34e36d7a7c32510e2f5761c9d7b0276e *man/readNcdf.Rd

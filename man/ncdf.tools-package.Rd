@@ -9,11 +9,11 @@ functions for frequently encountered tasks.}
 \details{
 \tabular{ll}{Package: \tab ncdf.tools\cr
 Title: \tab Easier ncdf file handling\cr
-Version: \tab 0.7.1.289\cr
+Version: \tab 0.7.1.290\cr
 Date: \tab 2014-01-01\cr
 Author: \tab Jannis v. Buttlar\cr
 Maintainer: \tab Jannis v. Buttlar <jbuttlar@bgc-jena.mpg.de>\cr
-Imports: \tab RNetCDF, chron, foreach, doMC, abind, plotrix, raster, RColorBrewer, JBTools\cr
+Imports: \tab RNetCDF, chron, parallel, abind, plotrix, raster, RColorBrewer, JBTools\cr
 License: \tab GPL-2\cr
 LazyLoad: \tab yesf\cr
 Depends: \tab R (>= 2.10.0)\cr}

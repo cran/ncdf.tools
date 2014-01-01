@@ -22,9 +22,7 @@ plotDatacube <- function(
   cat('Preparing stuff ...\n')
   if (parallel) {
     cat('Registering cluster ...\n')
-    if (!exists('cl') || !inherits(cl, 'cluster')) {
-      cl <- makeCluster(max.cores)
-    }
+    cl <- makeCluster(max.cores)
   }  
   if (class(data.object) == 'NetCDF') {
     file.con   = data.object

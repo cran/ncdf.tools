@@ -5,10 +5,8 @@ exportPattern("^[^\\.]")
 #useDynLib(ProjectsDllBaseName)	# only required when supplying C or FORTRAN code 
 
 import(RNetCDF)
-importFrom(chron, chron, as.chron, years)
+importFrom(chron, chron, as.chron, years, seq.dates)
 importFrom(abind, abind)
-import(foreach)
-import(doMC)
 importFrom(raster, raster)
 importFrom(JBTools, checkInstalled, convertArgs2String, getVecInfo, 
            getSysinfo, indexDimVecs2Matrix, isSeriesContinuous, isSeriesConstant,
@@ -16,5 +14,4 @@ importFrom(JBTools, checkInstalled, convertArgs2String, getVecInfo,
            rangeZeroEqui, registerParallel, RMSE, userCoords, whichClosest)
 importFrom(RColorBrewer, brewer.pal)
 import(parallel)
-importFrom(chron, seq.dates)
 importFrom(plotrix, color.legend)
