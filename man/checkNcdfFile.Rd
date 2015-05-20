@@ -4,7 +4,8 @@
 \description{This function checks whether a netCDF file is consistent with the parts of the COARDS/CF
 netCDF conventions used in the BGI department (MPI for Biogeochemistry,  Jena,  Germany).}
 \usage{checkNcdfFile(file.name, dims = c("longitude", "latitude", "time"), 
-    type = "strict", var.check = "single")}\arguments{
+    type = "strict", var.check = "single")}
+\arguments{
   \item{file.name}{character string: file name to check}
   \item{dims}{vector of strings:
 names of the dimensions which need to be in the file.}

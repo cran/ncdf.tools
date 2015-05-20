@@ -5,7 +5,8 @@
 since a specified origin into a POSIXct R vector.}
 \usage{convertDateNcdf2R(time.source, units = "days", origin = as.POSIXct("1800-01-01", 
     tz = "UTC"), time.format = c("\%Y-\%m-\%d", "\%Y-\%m-\%d \%H:\%M:\%S", 
-    "\%Y-\%m-\%d \%H:\%M", "\%Y-\%m-\%d \%Z \%H:\%M", "\%Y-\%m-\%d \%Z \%H:\%M:\%S"))}\arguments{
+    "\%Y-\%m-\%d \%H:\%M", "\%Y-\%m-\%d \%Z \%H:\%M", "\%Y-\%m-\%d \%Z \%H:\%M:\%S"))}
+\arguments{
   \item{time.source}{numeric vector or netCDF connection: either a number of time units since
 origin or a netCDF file connection, In the latter case, the time 
 vector is extracted from the netCDF file, This file, and especially the 

@@ -4,7 +4,8 @@
 \description{This function reads data from standard (BGI - Jena) FLUXNET netCDF files and returns it in
 an R object.}
 \usage{readFLUXNETNcdf(path = getwd(), sites, pars = "all", time.ends, 
-    dim.borders = list(1))}\arguments{
+    dim.borders = list(1))}
+\arguments{
   \item{path}{character string: path to the input file(s)}
   \item{sites}{character string: ids of the sites to extract}
   \item{pars}{character string: names of the variables to extract}

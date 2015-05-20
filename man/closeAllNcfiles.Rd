@@ -4,6 +4,7 @@
 \description{closeAllNcfiles is a convenience function to close all netCDF connections that are 
 currently open. }
 \usage{closeAllNcfiles()}
+
 \value{nothing is returned.}
 
 \author{Jannis v. Buttlar}

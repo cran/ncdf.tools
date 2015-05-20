@@ -8,7 +8,8 @@ attributes formatted in a standardized way.}
     lat.length = length(lat.values), long.length = length(long.values), 
     time.length = length(time.values), year.start.end = c(), 
     scale_factor = 1, add_offset = 0, type.var = "NC_DOUBLE", 
-    missing_value = -9999, con.atts = c(), data = c())}\arguments{
+    missing_value = -9999, con.atts = c(), data = c())}
+\arguments{
   \item{var.names}{character string: name of the target variable in the file}
   \item{file.name}{character string: name of the file. If not given, this
 is determined automatically in a standardized way from 

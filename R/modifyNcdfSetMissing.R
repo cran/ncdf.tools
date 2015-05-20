@@ -1,5 +1,5 @@
 modifyNcdfSetMissing <- function(
-## Set missing value attribute to a netCDF file
+##title<< Set missing value attribute to a netCDF file
   con ##<<  file connection to modify
   , var ##<<  variable name (or index) of the variable to modify
   , value = -9999 ##<< value of the missing value attribute

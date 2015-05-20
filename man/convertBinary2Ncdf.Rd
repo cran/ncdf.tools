@@ -7,7 +7,8 @@ in a standardized way.}
     type.ncdf = "NC_DOUBLE", dimensions, dimension.values, signed = TRUE, 
     var.name, long_name = var.name, var.units = "[]", scale.factor.in = 1, 
     scale.factor.out = scale.factor.in, na.value.in = -9999, 
-    na.value.out = na.value.in, offset.in = 0, offset.out = offset.in)}\arguments{
+    na.value.out = na.value.in, offset.in = 0, offset.out = offset.in)}
+\arguments{
   \item{file.input}{character string: name of the input file.}
   \item{date.vec}{R date object: time vector for the time coordinate}
   \item{length}{integer: Length in bytes of each entry in the input file.}

@@ -82,7 +82,7 @@ infoNcdfVars <- function(
       varinfo.out   <- varinfo.out[-rowsCoordVars,]
   if (close.file)
     close.nc(file.con)
-    return(varinfo.out)
+  return(varinfo.out)
 }
 
 

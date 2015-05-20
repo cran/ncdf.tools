@@ -6,7 +6,8 @@
     lat.values = c(), long.values = c(), time.values = c(), add.dims = list(), 
     lat.length = length(lat.values), long.length = length(long.values), 
     time.length = length(time.values), scale_factor = 1, add_offset = 0, 
-    type.var = "NC_DOUBLE", missing_value = -9999, units = "[]")}\arguments{
+    type.var = "NC_DOUBLE", missing_value = -9999, units = "[]")}
+\arguments{
   \item{file.name}{character string: name of the target file.}
   \item{var.names}{character vector: names of the variables
 in the target file.}

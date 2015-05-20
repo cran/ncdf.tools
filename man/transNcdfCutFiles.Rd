@@ -5,7 +5,8 @@
 of NetCDF files.}
 \usage{transNcdfCutFiles(file.names, time.range.out = c(), time.range.file = c(), 
     fun.start = c(), fun.end = c(), format = "", convert = function(x) chron(paste(x, 
-        "15", sep = ""), format = "ymd", out.format = "d-m-y"))}\arguments{
+        "15", sep = ""), format = "ymd", out.format = "d-m-y"))}
+\arguments{
   \item{file.names}{vector of character stings: file names to process.}
   \item{time.range.out}{
 }

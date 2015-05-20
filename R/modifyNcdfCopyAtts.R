@@ -11,7 +11,11 @@ modifyNcdfCopyAtts <- function(
 ##seealso<<
 ##\code{\link{modifyNcdfCopyMetadata}}, \code{\link{modifyNcdfCopyVar}}
 {
+  if (var.orig == 'NC_GLOBAL') {
+    n.atts <- file.inq.nc(file.con.orig)$ngatts
+  } else {
     n.atts <- var.inq.nc(file.con.orig, var.orig)$natts
+  }
     if (n.atts > 0) {
         for (i in 1:n.atts)  {
             att.name  <- att.inq.nc(file.con.orig, var.orig, i - 1)$name

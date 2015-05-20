@@ -5,8 +5,8 @@
 of the dimensions of a data array. This mimics Matlabs indexing scheme.
 The indexing mechanisms of R only allow supplying logical indices for all
 dimensions.}
-\usage{indexDatacube(datacube = c(),
- logical.ind, dims = "auto", dims.datacube = dim(datacube))}\arguments{
+\usage{indexDatacube(datacube = c(), logical.ind, dims = "auto", dims.datacube = dim(datacube))}
+\arguments{
   \item{datacube}{array: datacube from which to extract the sub-parts
 datacube and dims.datacube should be supplied.}
   \item{logical.ind}{logical array: TRUE/FALSE index matrix for a subset of the

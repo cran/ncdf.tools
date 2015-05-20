@@ -2,7 +2,8 @@
 \alias{modifyNcdfDefAtts}
 \title{Define a set netCDF attributes at once}
 \description{Easily define a couple of attributes for a single netCDF variable in one step.}
-\usage{modifyNcdfDefAtts(file.con, var.id, atts)}\arguments{
+\usage{modifyNcdfDefAtts(file.con, var.id, atts)}
+\arguments{
   \item{file.con}{a NetCDF object pointing to the respective netCDF file.}
   \item{var.id}{the variable id (integer) or name (string) for which to define attributes.}
   \item{atts}{list: the attributes to define (see details or an example).}

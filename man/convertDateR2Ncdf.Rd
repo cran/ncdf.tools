@@ -3,7 +3,8 @@
 \title{Convert time vectors in netCDF files to Julian days since a certain origin   }
 \description{This function automatically converts time vectors in netCDF files to a standardized Gregorian calendar}
 \usage{convertDateR2Ncdf(ncdf.obj, date.vec = "auto", origin = "1800-01-01", 
-    write.to.ncdf = TRUE)}\arguments{
+    write.to.ncdf = TRUE)}
+\arguments{
   \item{ncdf.obj}{character string or netCDF connection: netCDF file for which to convert the dates}
   \item{date.vec}{POSIXct vector: date vectors for the time dimension. If set to 'auto', this
 is tried to be extracted from the netCDF file}

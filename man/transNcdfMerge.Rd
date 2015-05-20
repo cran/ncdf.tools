@@ -7,7 +7,8 @@ subsequent time steps into one continuous file.}
     time.diff = NULL, fun.start = NULL, fun.end = NULL, time.range.out = c(), 
     format = "\%Y\%m", convert = function(x) chron(paste(x, "15", 
         sep = ""), format = "ymd", out.format = "d-m-y"), path.target = getwd(), 
-    target.name = "")}\arguments{
+    target.name = "")}
+\arguments{
   \item{file.names}{character vector: names of the files to merge.}
   \item{name.change}{
 }

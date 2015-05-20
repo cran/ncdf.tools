@@ -76,7 +76,7 @@ createLatLongTime <- function(
       if (inherits(time.values, c('POSIXlt', 'POSIXct'))) {
         modifyNcdfDefAtts(file.con,'time',atts = list(long_name = "time",units = "days since 1800-01-01 00:00" ,
                                             calendar = "gregorian"))     
-        time.values <- as.numeric(julian(time.values, origin = as.POSIXct("1800-01-01", tz="UTC")))
+        time.values <- as.numeric(julian(time.values, origin = as.POSIXct("1850-01-01", tz="UTC")))
       }
       var.put.nc(file.con, 'time', time.values)
     }     
